@@ -1,0 +1,7 @@
+MySQL CommandLine
+1. Start
+ - shell> mysql -u user -p
+ - Enter password: eotjr8830
+ 
+ 
+ 

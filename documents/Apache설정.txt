@@ -1,0 +1,17 @@
+Apache 설정
+
+ - Apache24\conf\extra\httpd-vhosts.conf 파일에 서버 호스트 설정
+ - Apache24\conf\httpd.conf 파일
+	- ServerRoot 지정
+		ServerRoot "c:/Work/Apache24"
+	- DirectoryIndex에 기본 페이지 설정
+	- php모듈 지정. 
+		# For PHP 5 do something like this:
+		LoadModule php5_module "C:/Work/php5.5.9/php5apache2_4.dll"
+		AddType application/x-httpd-php .php
+	- php디렉토리 지정
+		# configure the path to php.ini
+		PHPIniDir "C:/Work/php5.5.9"
+	- DocumentRoot폴더 지정
+		DocumentRoot "c:/Work/Apache24/htdocs"
+ 
